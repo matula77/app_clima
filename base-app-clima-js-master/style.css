@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url('./static/img/fondo_clima.jpg');    
+    background-size: cover;
+  }
+  
+  .contenedor {
+    width: 50% ;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    color: whitesmoke;
+    background-color: #7999b857 1.5;
+    box-shadow: 0 2px 4px rgba(245, 244, 244, 0.1);
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; */
+  }
+  
+  h1 ,h2{
+    text-align: center;
+    color: #333333;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    cursor: start;
+  }
+  button:hover{
+    background-color: #333333;
+  }
+  #datosClima {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
